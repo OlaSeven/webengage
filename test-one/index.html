@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="//http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- javascript-pop -->
+  <script src="./js/jquery.js"></script>
+  <title>WEBENGAGE</title>
+</head>
+
+<body>
+  <div class="top-menu">
+    <div class="container">
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="">Tour</a>
+          </li>
+          <li>
+            <a href="">Prroduct</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">Enterprise</a>
+          </li>
+          <li>
+            <a href="">Support</a>
+          </li>
+          <li>
+            <a href="">Pricing</a>
+          </li>
+          <li>
+            <a href="">Cart</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+    <div class="bg-fome">
+      <div class="container">
+        <div class="punny-ariay">
+          <h1>More Deals For You!</h1>
+          <p>Empowering millions of students in making the right career and college decision. Boost your exam
+            preparation</p>
+          <a href="">Comming soon</a>
+        </div>
+        <div class="login-form">
+          <div class="main-div">
+            <div class="panel">
+
+            </div>
+            <form id="Login">
+
+              <div class="form-group">
+                <label class="left-ariay">First Name</label>
+                <input type="text" class="form-control" id="inputEmail" placeholder="Email Address">
+
+              </div>
+
+              <div class="form-group">
+                <label class="left-ariay">Last Name</label>
+                <input type="text" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Email Adddress</label>
+                <input type="email" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Phone</label>
+                <input type="tel" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Phone</label>
+                <input type="tel" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Phone</label>
+                <input type="tel" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Email Adddress</label>
+                <input type="email" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Phone</label>
+                <input type="tel" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Phone</label>
+                <input type="tel" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+              <div class="form-group">
+                <label class="left-ariay">Phone</label>
+                <input type="tel" class="form-control" id="inputPassword" placeholder="Password">
+
+              </div>
+            
+              <button type="submit" class="btn btn-primary">Login</button>
+
+            </form>
+          </div>
+          <p class="botto-text"> Designed by Shimray</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- pop up -->
+
+  <div id="spopup" style="display: none;">
+ 
+    <!--insert popup content here-->
+    <div class="col-md-12 col-sm-12">
+      <h1>More Deals For You!</h1>
+      <p>More discount for your flight</p>
+      <div class="row">
+   <!--close button-->
+   <a class="" style=" position: absolute;
+   top: 50%;
+   right: 100px;
+   color: #555;
+   font-size: 20px;
+   font-weight: bold;" href="javascript:void(0);" onclick="return closeSPopup();">
+     <!-- <img src="ico-x.png" width="18" height="18" /> -->
+     <i class="fa fa-times" aria-hidden="true"></i>
+   </a>
+        <div class="card mg" style="width: 18rem;">
+
+          <div class="card-body">
+            <span>Flat</spans>
+              <h5 class="card-title">Rs.500 <span>off</span></h5>
+              <p id="p1" class="card-text">FLYMMT500</p>
+              <span class="vald">*valid on Min 3Tickets Booking</span>
+              <button onclick="copyToClipboard('p1')" class="btn btn-primary round">Copy Code</button>
+              <!-- <a href="#" class="btn btn-primary round">Copy Code</a> -->
+          </div>
+        </div>
+
+        <div class="card mg" style="width: 18rem;">
+
+          <div class="card-body">
+            <span>Flat</spans>
+              <h5 class="card-title">Rs.300 <span>off</span></h5>
+              <p id="p2" class="card-text" id="input">FLYMMT300</p>
+              <span class="vald">*valid on Min 2Tickets Booking</span>
+              <button onclick="copyToClipboard('p2')" class="btn btn-primary round">Copy Code</button>
+              <!-- <button class="btn btn-primary round" id="copy">Copy Code</button> -->
+              <!-- <span id="copied-text" style="display: none;">Copied!</span> -->
+              <!-- <a id="ta" class="btn btn-primary round">Copy Code</a> -->
+          </div>
+        </div>
+        <div class="card mg" style="width: 18rem;">
+
+          <div class="card-body">
+            <span>Flat</spans>
+              <h5 class="card-title">Rs.150 <span>off</span></h5>
+              <p id="p3" class="card-text">FLYMMT150</p>
+              <span class="vald">*valid on Min 1Tickets Booking</span>
+              <button onclick="copyToClipboard('p3')" class="btn btn-primary round">Copy Code</button>
+              <!-- <a href="#" class="btn btn-primary round">Copy Code</a> -->
+          </div>
+        </div>
+
+        <div class="card mg" style="width: 18rem;">
+
+          <div class="card-body">
+            <span>Flat</spans>
+              <h5 class="card-title">Rs.2500 <span>off</span></h5>
+              <p id="p4" class="card-text">MMTBEST</p>
+              <!-- <span>*valid on Min 2Tickets Booking</span> -->
+              <button style="margin-top: 1em;" onclick="copyToClipboard('p4')" class="btn btn-primary round">Copy
+                Code</button>
+              <!-- <a href="#" class="btn btn-primary round">Copy Code</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- <p id="p1">P1: I am paragraph 1</p>
+      <p id="p2">P2: I am a second paragraph</p>
+      <button onclick="copyToClipboard('p1')">Copy P1</button>
+      <button onclick="copyToClipboard('p2')">Copy P2</button>
+      <br/><br/><input type="text" placeholder="Paste here for test" /> -->
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <!-- Initialize Swiper -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- Swiper JS -->
+
+</body>
+
+</html>
